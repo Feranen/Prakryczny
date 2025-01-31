@@ -25,20 +25,20 @@
                 <li>Warta-Obrzycko</li>
             </ul>
             <h3>Dodaj zawody wędkarskie</h3>
-            <div class="lowisko">
+            <div class="lowisko" id="input">
                 <label for="lowisko">Łowisko</label>
                 <input type="number" name="lowisko">
             </div>
-            <div class="data">
+            <div class="data" id="input">
                 <label for="data">Łowisko</label>
                 <input type="date" name="data">
             </div>
-            <div class="Sedzia">
+            <div class="Sedzia" id="input">
                 <label for="Sedzia">Sędzia</label>
                 <input type="text" name="Sedzia">
             </div>
             <div class="btn" style="margin-bottom: 20px;">
-                <button>CZYŚĆ</button>
+                <button onclick="clean">CZYŚĆ</button>
                 <button>DODAJ</button>
             </div>
         </form>
@@ -51,5 +51,7 @@
             <p>Stronę przygotował: 0000000000000</p>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
