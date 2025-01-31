@@ -1,3 +1,4 @@
 function clean(){
-    document.getElementsByClassName('input').reset;
+    let inputs = document.querySelectorAll(".input input"); 
+    inputs.forEach(input => input.value = ""); 
 }

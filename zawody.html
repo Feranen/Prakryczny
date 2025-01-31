@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/styl3.css">
 </head>
 <body>
+
+
     <div class="header">
         <div class="left">
             <h1>Zawody polskich wędkarzy</h1>
@@ -16,7 +18,7 @@
         </div>
     </div>
     <div class="main">
-        <form action="">
+        <form action="form.php" method="POST">
             <h3>Łowiska</h3>
             <ul>
                 <li>Zalew Węgrowski</li>
@@ -30,7 +32,7 @@
                 <input type="number" name="lowisko">
             </div>
             <div class="data input">
-                <label for="data">Łowisko</label>
+                <label for="data">Data</label>
                 <input type="date" name="data">
             </div>
             <div class="Sedzia input">
@@ -38,8 +40,8 @@
                 <input type="text" name="Sedzia">
             </div>
             <div class="btn" style="margin-bottom: 20px;">
-                <button onclick="clean">CZYŚĆ</button>
-                <button>DODAJ</button>
+                <button type="button" onclick="clean()">CZYŚĆ</button>
+                <button type="submit">DODAJ</button>
             </div>
         </form>
     </div>
