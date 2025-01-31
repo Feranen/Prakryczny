@@ -1,3 +1,3 @@
 function clean(){
-    document.getElementById('input').reset;
+    document.getElementsByClassName('input').reset;
 }
